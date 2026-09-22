@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: ios
+  client-fingerprint: firefox
 - name: 🇹🇭 TH 02 - xiaohe
   type: vless
   server: 34.15.162.1
@@ -27,21 +27,21 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇹🇭 TH 03 - xiaohe
   type: vless
-  server: 221.125.10.8
-  port: 57537
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 103.143.81.178
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: shuma.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: cdn8848.776676.xyz
+      Host: shuma.ccwu.cc
 - name: 🇹🇭 TH 04 - xiaohe
   type: vless
   server: 34.15.162.1
@@ -53,7 +53,7 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇹🇭 TH 05 - xiaohe
   type: vless
   server: 34.15.162.1
@@ -65,7 +65,7 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇹🇭 TH 06 - xiaohe
   type: vless
   server: 34.15.162.1
@@ -77,7 +77,7 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: ios
 - name: 🇹🇭 TH 07 - xiaohe
   type: vless
   server: 34.15.162.1
@@ -92,6 +92,18 @@ proxies:
   client-fingerprint: safari
 - name: 🇹🇭 TH 08 - xiaohe
   type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇹🇭 TH 09 - xiaohe
+  type: vless
   server: 43.133.110.81
   port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
@@ -104,18 +116,6 @@ proxies:
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇹🇭 TH 09 - xiaohe
-  type: vless
-  server: 34.15.162.1
-  port: 443
-  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 - name: 🇹🇭 TH 10 - xiaohe
   type: vless
   server: 103.86.49.57
