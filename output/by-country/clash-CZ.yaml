@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 188.114.97.1
-  port: 2053
-  uuid: 0b3e7958-e5c4-498f-ab21-b49686f95d2d
+  server: 109.172.8.73
+  port: 443
+  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bold-term-4edd.mbigspot.workers.dev
+  servername: www.nihaoyun.top
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: bold-term-4edd.mbigspot.workers.dev
+      Host: www.nihaoyun.top
 proxy-groups:
 - name: PROXIES
   type: select
